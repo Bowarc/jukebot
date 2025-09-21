@@ -1,0 +1,19 @@
+[package]
+name = "jukebot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4.20"
+ron = "0.11.0"
+serde = { version = "1.0.226", features = ["derive"] }
+serenity = { version = "0.12.4", features = ["voice"] }
+logger = { git = "https://github.com/bowarc/crates", package = "logger" }
+tokio = { version = "1.47.1", features = ["macros", "rt-multi-thread"] }
+dotenv = "0.15.0"
+songbird = { version = "0.5.0", features = ["driver"] }
+reqwest = "0.12.23"
+symphonia = { version = "0.5.2", features = ['pcm','mp3','wav','isomp4','aac','alac'] }
+
+[target.'cfg(not(target_env = "msvc"))'.dependencies]
+jemallocator = "0.5.4"
