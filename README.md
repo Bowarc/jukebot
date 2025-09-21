@@ -54,10 +54,7 @@ This will enable some optimisations but make the compilation a bit slower.
 
 #### Init
 Start by running `sh scripts/init.sh`  
-This will create some important folders in the project directory, which the bot relies on.
-
-#### back
-`sh scripts/back.sh`
+This will create some important folders in the project directory, which the bot relies on.  
 
 ### Run
 To run the bot, use `sh scripts/run.sh`  
@@ -65,4 +62,5 @@ To run the bot, use `sh scripts/run.sh`
 ## Usage
 
 TODO: talk about commands
+
 
