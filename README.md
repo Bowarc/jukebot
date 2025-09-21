@@ -1,4 +1,4 @@
-# Simple music discord bot
+# Simple discord msuic bot
 
 ## Goal
 
@@ -8,7 +8,7 @@ Meant to be deployed by anyone
 
 ## Status
 
-MPV working
+MVP working
 
 ## Roadmap
 - [ ] TODO
@@ -65,3 +65,4 @@ To run the bot, use `sh scripts/run.sh`
 ## Usage
 
 TODO: talk about commands
+
